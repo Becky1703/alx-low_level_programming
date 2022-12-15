@@ -9,10 +9,12 @@ int print_sign(int n);
 int _abs(int);                                                                                                                  
 int print_last_digit(int);                                                                                                      
 void jack_bauer(void);                                                                                                          
-void print_times_table(int n);                                                                                                  
-int add(int a, int b);                                                                                                          
+void times_table(void);                                                                                                  
+int add(int, int);                                                                                                          
 void print_to_98(int n);                                                                                                        
 int _putchar(char);                                                                                                             
-void num(int r, int n);                                                                                                         
-                                                                                                                                
+void num(int r, int n);
+
+void print_times_table(int n);
+
 #endif
