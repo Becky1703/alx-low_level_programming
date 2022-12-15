@@ -2,11 +2,12 @@
 
 /**
  * main - Entry point
- * Description: print value of n; postive, negative or zero
- * Return: Always 0 (success)
+ * positive_or_negative - prints the value of n
+ * Return: Always 0 (Success)
  */
 void positive_or_negative(int i)
 {
+int i
 if (i == 0)
 {
 printf("%d is zero\n", i);
