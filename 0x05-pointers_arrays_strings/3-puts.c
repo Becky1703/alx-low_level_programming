@@ -5,7 +5,7 @@
  *
  * @str: string parameter to print
  *
- * Return: Always 0
+ * Return: Nothing
  */
 void _puts(char *str)
 {
@@ -15,5 +15,4 @@ putchar(*str + 0);
 ++str;
 }
 _putchar('\n');
-return (0);
 }
