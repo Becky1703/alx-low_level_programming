@@ -1,2 +1,1 @@
-# alx-low_level_programming
-This repository contains C language projects
+This is my first C programming project
