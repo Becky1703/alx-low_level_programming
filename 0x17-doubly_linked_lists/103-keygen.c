@@ -119,7 +119,8 @@ keygen[3] = ((char *)alph)[f4(argv[1], len)];
 /* ----------- f5 ----------- */
 keygen[4] = ((char *)alph)[f5(argv[1], len)];
 /* ----------- f6 ----------- */
-keygen[5] = ((char *)alph)[f6(argv[1])];keygen[6] = '\0';
+keygen[5] = ((char *)alph)[f6(argv[1])];
+keygen[6] = '\0';
 for (ch = 0; keygen[ch]; ch++)
 printf("%c", keygen[ch]);
 return (0);
