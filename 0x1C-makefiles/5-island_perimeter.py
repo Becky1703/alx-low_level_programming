@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """function to define island perimeter"""
 
+
 def island_perimeter(grid):
     """ water is represented by 0 and land by 1
     returns the perimeter of the island"""
@@ -20,6 +21,5 @@ def island_perimeter(grid):
                     perimeter += 1
                 if j == cols - 1 or grid[i][j + 1] == 0:
                     perimeter += 1
-                    
 
     return perimeter
