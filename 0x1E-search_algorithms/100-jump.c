@@ -30,7 +30,7 @@ if (array[i] == value)
 return (i);
 j++;
 prev = i;
-i = j *blockSize;
+i = j * blockSize;
 } while (i < (int)size && array[i] < value);
 printf("Value found between indexes [%d] and [%d]\n", prev, i);
 
